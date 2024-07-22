@@ -24,6 +24,7 @@ public class StatisticsCalculatorTest {
     @Test
     public void testGetMax() {
         assertEquals(5, calculator.getMax());
+        System.out.println("Expected " + calculator.getMax() + " is equal actual");
     }
 
     @Test
